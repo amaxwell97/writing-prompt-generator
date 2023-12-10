@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.prompt-background {
+    background-color: grey;
+    height: 30%;
+    min-height: 500px;
+    width: 50%;
+    min-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.generate-button {
+    height: 75px;
+    width: 250px;
+    margin-bottom: 30px;
+}
