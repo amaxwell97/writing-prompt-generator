@@ -19,12 +19,18 @@ html, body {
     width: 50%;
     min-width: 800px;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .generate-button {
     height: 75px;
     width: 250px;
     margin-bottom: 30px;
+}
+
+.prompt-headline {
+    margin-bottom: 0px;
+    margin-top: 50px;
 }
