@@ -3,6 +3,8 @@ html, body {
     padding: 0;
     height: 100%;
     min-height: 100%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
@@ -14,20 +16,20 @@ html, body {
 
 .prompt-background {
     background-color: grey;
-    height: 30%;
-    min-height: 500px;
-    width: 50%;
-    min-width: 800px;
+    height: 60%;
+    width: 80%;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5%;
 }
 
 .generate-button {
-    height: 75px;
+    height: 15%;
     width: 250px;
     margin-bottom: 30px;
+    border-radius: 5%;
 }
 
 .prompt-headline {
